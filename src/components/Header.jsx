@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from './Hero';
 import Ai_tools from './Ai_tools';
+import AI_API from './AI_API';
 
 const Header = () => {
   return (
@@ -17,6 +18,7 @@ const Header = () => {
     </div>
     <Hero/>
     <Ai_tools/>
+    <AI_API/>
     </>
   )
 }
