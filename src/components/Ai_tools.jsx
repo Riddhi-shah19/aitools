@@ -3,16 +3,19 @@ import {listings} from './Icons'
 
 const Ai_tools = () => {
     const listingComponents=listings.map((listing)=>(
-        <div key={listing.id}>
-        <img src={listing.image}/>
-        <h3 className='hover:scale-105 cursor-pointer text-center mt-2'>{listing.title}</h3>
+        <div className='flex flex-col gap-1' key={listing.id}>
+        <img className='h-36 m-auto pt-5' src={listing.image}/>
+        <h3 className='hover:scale-105 cursor-pointer text-center mt-2 text-xl'>{listing.title}</h3>
+        <p className='text-center'>{listing.description}</p>
         </div>
     ))
   return (
-    <div className='grid grid-cols-5 justify-center'>
-
+    <>
+    <h1 className='text-center text-3xl font-bold mt-6'>AI TOOLS</h1>
+    <div className='grid grid-cols-5 justify-center mb-4'>
         {listingComponents}
     </div>
+    </>
     // <div className="relative">
     
     //   <div className='flex flex-wrap items-center justify-center m-[10px] pl-[4rem] '>
