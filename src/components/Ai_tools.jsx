@@ -4,7 +4,7 @@ import {listings} from './Icons'
 const Ai_tools = () => {
     const listingComponents=listings.map((listing)=>(
         <div key={listing.id}>
-        <img src={listing.image}/>
+        <img  src={listing.image}/>
         <h3 className='hover:scale-105 cursor-pointer text-center mt-2'>{listing.title}</h3>
         </div>
     ))
