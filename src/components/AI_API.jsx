@@ -5,9 +5,9 @@ function AI_API() {
     <>
     <div className='bg-gray-600'>
         <div>
-           <h1 className=' text-center text-4xl py-5  text-white'>AI API</h1>
+           <h1 className=' text-center text-4xl p-[2rem]  text-white'>AI API</h1>
       </div>
-      <div className='grid grid-cols-4  '>
+      <div className='grid grid-cols-5 gap-y-[10px] '>
         <div className='flex '>
             <img className='h-[8rem] w-[10rem] hover:scale-105 cursor-pointer drop-shadow-2xl ' src='assets/images/chatgpt.png' alt="" />
             <div className='text-white p-[10px] mt-[20px] ml-20px] w-[12rem]'>
@@ -60,10 +60,10 @@ function AI_API() {
             </div>
         </div>
         <div className='flex '>
-            <img className='h-[8rem] w-[10rem] hover:scale-105 cursor-pointer drop-shadow-2xl' src='assets/images/fireflies.png' alt="" />
+            <img className='h-[8rem] w-[10rem] hover:scale-105 cursor-pointer ' src='assets/images/riffusion.png' alt="" />
             <div className='text-white p-[10px] mt-[20px] ml-20px] w-[12rem]'>
-                <h3 className='hover:scale-105 cursor-pointer'>FIREFLIES</h3>
-                <p>AI TOOL TO GENERATE NOTES FROM YOUR MEETINGS</p>
+                <h3 className='hover:scale-105 cursor-pointer'>RIFFUSION</h3>
+                <p>AI BEAT GENERATOR</p>
             </div>
         </div>
        <div className='flex  '>
@@ -73,11 +73,11 @@ function AI_API() {
                 <p>AI OBJECT REMOVER</p>
             </div>
         </div>
-        <div className='flex basis-1/3 min-w-[250px] my-[10px]'>
-            <img className='h-[8rem] w-[10rem] hover:scale-105 cursor-pointer drop-shadow-2xl' src='assets/images/fontjoy.png' alt="" />
+        <div className='flex '>
+            <img className='h-[8rem] w-[10rem] hover:scale-105 cursor-pointer drop-shadow-2xl' src='assets/images/midjourney.png' alt="" />
             <div className='text-white p-[10px] mt-[20px] ml-20px] w-[12rem]'>
-                <h3 className='hover:scale-105 cursor-pointer'>FONTJOY</h3>
-                <p>AI TOOL TO CREATE FONT COMBINATIONS</p>
+                <h3 className='hover:scale-105 cursor-pointer'>MIDJOURNEY</h3>
+                <p>TO CREATE FASCINATING ART</p>
             </div>
         </div>
         <div className='flex basis-1/3 min-w-[250px] my-[10px] ]'>
@@ -101,27 +101,23 @@ function AI_API() {
                 <p>WRITING CONTENT AND FINDING CAPITON FOR SOCIAL MEDIA.</p>
             </div>
         </div>
-        <div className='flex '>
-            <img className='h-[8rem] w-[10rem] hover:scale-105 cursor-pointer drop-shadow-2xl' src='assets/images/midjourney.png' alt="" />
+        <div className='flex basis-1/3 min-w-[250px] my-[10px]'>
+            <img className='h-[8rem] w-[10rem] hover:scale-105 cursor-pointer drop-shadow-2xl' src='assets/images/fontjoy.png' alt="" />
             <div className='text-white p-[10px] mt-[20px] ml-20px] w-[12rem]'>
-                <h3 className='hover:scale-105 cursor-pointer'>MIDJOURNEY</h3>
-                <p> AI TOOL TO CREATE FASCINATING ART</p>
+                <h3 className='hover:scale-105 cursor-pointer'>FONTJOY</h3>
+                <p>AI TOOL TO CREATE FONT COMBINATIONS</p>
             </div>
         </div>
+       
         <div className='flex '>
-            <img className='h-[8rem] w-[10rem] hover:scale-105 cursor-pointer ' src='assets/images/riffusion.png' alt="" />
+            <img className='h-[8rem] w-[10rem] hover:scale-105 cursor-pointer drop-shadow-2xl' src='assets/images/fireflies.png' alt="" />
             <div className='text-white p-[10px] mt-[20px] ml-20px] w-[12rem]'>
-                <h3 className='hover:scale-105 cursor-pointer'>RIFFUSION</h3>
-                <p>AI BEAT GENERATOR</p>
+                <h3 className='hover:scale-105 cursor-pointer'>FIREFLIES</h3>
+                <p>AI TOOL TO GENERATE NOTES FROM YOUR MEETINGS</p>
             </div>
         </div>
-        <div className='flex '>
-            <img className='h-[8rem] w-[10rem] hover:scale-105 cursor-pointer ' src='assets/images/riffusion.png' alt="" />
-            <div className='text-white p-[10px] mt-[20px] ml-20px] w-[12rem]'>
-                <h3 className='hover:scale-105 cursor-pointer'>RIFFUSION</h3>
-                <p>AI BEAT GENERATOR</p>
-            </div>
-        </div>
+        
+       
         </div>
     </div>
     </>
