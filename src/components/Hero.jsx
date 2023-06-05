@@ -17,7 +17,7 @@ const Hero = () => {
                 <button className='items-center text-white py-[0.2rem]'><AiOutlineSearch size={20} className="icon"/></button>
                </div>
             </form>
-        <p className='text-center text-white ml-[23rem] mr-[23rem] mt-[1rem] text-xl'>Artificial intelligence is the simulation of human intelligence processes by machines.</p>
+        <p className='text-center text-white mt-[1rem] text-xl'>Artificial intelligence is the simulation of human intelligence <br/> processes by machines.</p>
         <div className='text-gray-950 mt-[2rem] focus:outline-none'>
         <button type="button" className=' rounded-md bg-white py-[0.6rem] px-[2.6rem] hover:bg-gray-600 hover:scale-110 hover:text-white'>AI TOOLS</button>
         <button type="button" className='ml-[2rem]  rounded-md bg-white py-[0.6rem] px-[3rem] hover:bg-gray-700 hover:scale-110 hover:text-white'>AI API</button>
