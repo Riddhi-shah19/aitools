@@ -17,8 +17,13 @@ const Header = () => {
         </ul>
     </div>
     <Hero/>
+<<<<<<< HEAD
     {/* <Ai_tools/> */}
      <AI_API/> 
+=======
+    <Ai_tools/>
+    <AI_API/> 
+>>>>>>> 91f3117af96e898624e1757ab3cbae4a1c966ddf
     </>
   )
 }
