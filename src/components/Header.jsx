@@ -18,7 +18,7 @@ const Header = () => {
     </div>
     <Hero/>
     <Ai_tools/>
-     <AI_API/> 
+    <AI_API/> 
     </>
   )
 }
