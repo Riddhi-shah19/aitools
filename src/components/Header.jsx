@@ -1,7 +1,5 @@
 import React from 'react';
 import Hero from './Hero';
-import Ai_tools from './Ai_tools';
-import AI_API from './AI_API';
 
 const Header = () => {
   return (
@@ -12,7 +10,7 @@ const Header = () => {
         </div> 
         
         <ul className='flex'>
-            <li className='cursor-pointer'>AI TOOLS</li>
+           <li className='cursor-pointer'>AI TOOLS</li>
             <li className='cursor-pointer'>AI API</li>
         </ul>
     </div>

@@ -4,10 +4,6 @@ import React from 'react'
 const Ai_tools = ({data}) => {
  
     const listingComponents=data.map((listing)=>(
-
-
-
-
         <div className='flex flex-col gap-1' key={listing.id}>
         <img className='h-36 m-auto pt-5' src={listing.image}/>
         <a className='hover:scale-105 hover:underline cursor-pointer text-center mt-2 text-xl' href={listing.link} target='_blank'>{listing.title}</a>
@@ -21,6 +17,7 @@ const Ai_tools = ({data}) => {
     <div className='grid grid-cols-5 justify-center mb-4'>
         {listingComponents}
     </div>
+  
     </>
   )
 }
