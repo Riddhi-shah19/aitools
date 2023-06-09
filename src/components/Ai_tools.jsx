@@ -15,6 +15,7 @@ const Ai_tools = ({data}) => {
     <div className='grid grid-cols-5 justify-center mb-4'>
         {listingComponents}
     </div>
+  
     </>
   )
 }

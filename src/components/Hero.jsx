@@ -2,14 +2,18 @@ import React,{useState} from 'react';
 import { AiOutlineSearch } from 'react-icons/ai';
 import { listings } from './Icons';
 import Ai_tools from './Ai_tools';
+import { apis } from './Api';
+import AI_API from './AI_API';
 
 const Hero = () => {
   const [search,setSearch]=useState('')
 
   // console.log(listings.filter(text=>text.description.toLowerCase().includes("CHAT")))
   const searchHandler = (data) =>{
-    return data.filter((item)=>item.description.toLowerCase().includes(search))
+    return data.filter((item)=>item.description.toLowerCase().includes(search)),
+    data.filter((item)=>item.title.toLowerCase().includes(search));
   }
+  
 
   return (
     <>
@@ -35,6 +39,7 @@ const Hero = () => {
       </div>
     </div>
    <Ai_tools data={searchHandler(listings)}/>
+   <AI_API data={searchHandler(apis)}/>
    </>
   )
 

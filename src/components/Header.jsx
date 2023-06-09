@@ -1,6 +1,6 @@
 import React from 'react';
 import Hero from './Hero';
-import AI_API from './AI_API';
+
 
 const Header = () => {
   return (
@@ -11,12 +11,12 @@ const Header = () => {
         </div> 
         
         <ul className='flex'>
-            <li >AI TOOLS</li>
-            <li>AI API</li>
+           <li className='cursor-pointer'>AI TOOLS</li>
+            <li className='cursor-pointer'>AI API</li>
         </ul>
     </div>
     <Hero/>
-    <AI_API/> 
+
     </>
   )
 }
