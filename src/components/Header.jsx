@@ -1,6 +1,5 @@
 import React from 'react';
 import Hero from './Hero';
-import Ai_tools from './Ai_tools';
 import AI_API from './AI_API';
 
 const Header = () => {
@@ -17,13 +16,7 @@ const Header = () => {
         </ul>
     </div>
     <Hero/>
-<<<<<<< HEAD
-    {/* <Ai_tools/> */}
-     <AI_API/> 
-=======
-    <Ai_tools/>
     <AI_API/> 
->>>>>>> 91f3117af96e898624e1757ab3cbae4a1c966ddf
     </>
   )
 }
