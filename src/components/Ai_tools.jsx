@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 const Ai_tools = ({data}) => {
  
     const listingComponents=data.map((listing)=>(
@@ -12,9 +11,14 @@ const Ai_tools = ({data}) => {
     ))
   return (
     <>
+<<<<<<< HEAD
     <div >
     <h1 className='text-center text-3xl font-bold mt-6 mb-6'>AI TOOLS</h1>
     <div className='grid grid-cols-5 justify-center mb-4 gap-y-[3rem]'>
+=======
+    <h1 className='text-center text-3xl font-bold mt-6'>AI TOOLS</h1>
+    <div className='grid grid-cols-5 justify-center mb-4'>
+>>>>>>> a8dc86dbf593f0642232f169dbdc13398cf24f01
         {listingComponents}
     </div>
     </div>
