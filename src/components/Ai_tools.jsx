@@ -11,17 +11,22 @@ const Ai_tools = ({data}) => {
         </div>
     ))
   return (
-    <>
     
-<div >
-    <h1 className='text-center text-3xl font-bold mt-6 mb-6'>AI TOOLS</h1>
+
+    
+
+
+
+    <div id='aitools'>
+    <h1 className='text-center text-3xl font-bold mt-6'>AI TOOLS</h1>
+    <div className='grid grid-cols-5 justify-center mb-6'>
+
    
-    <div className='grid grid-cols-5 justify-center mb-4 gap-y-[3rem]'>
         {listingComponents}
     </div>
     
     </div>
-    </>
+    
   )
 }
 

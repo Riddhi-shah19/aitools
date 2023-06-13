@@ -1,10 +1,20 @@
-import React,{useState} from 'react';
+import {React,useState} from 'react';
 import { AiOutlineSearch } from 'react-icons/ai';
 import { listings } from './Icons';
 import Ai_tools from './Ai_tools';
 import { apis } from './Api';
 import AI_API from './AI_API';
 
+export function handleScroll(){
+  const element =document.getElementById('aitools') 
+  element.style.scrollMarginTop='5rem'
+  element.scrollIntoView({behavior:'smooth'})
+}
+export function handleScroll2(){
+  const element =document.getElementById('apitools') 
+  element.style.scrollMarginTop='5rem'
+  element.scrollIntoView({behavior:'smooth'})
+}
 const Hero = () => {
   const [search,setSearch]=useState('')
 
@@ -38,8 +48,8 @@ const Hero = () => {
             </form>
         <p className='text-center text-white mt-[1rem] text-xl'>Artificial intelligence is the simulation of human intelligence <br/> processes by machines.</p>
         <div className='text-gray-950 mt-[2rem] focus:outline-none'>
-        <button type="button" className=' rounded-md bg-white py-[0.6rem] px-[2.6rem] hover:bg-gray-600 hover:scale-110 hover:text-white'>AI TOOLS</button>
-        <button type="button" className='ml-[2rem]  rounded-md bg-white py-[0.6rem] px-[3rem] hover:bg-gray-700 hover:scale-110 hover:text-white'>AI API</button>
+        <button type="button" onClick={handleScroll} className=' rounded-md bg-white py-[0.6rem] px-[2.6rem] hover:bg-gray-600 hover:scale-110 hover:text-white'>AI TOOLS</button>
+        <button type="button" onClick={handleScroll2} className='ml-[2rem]  rounded-md bg-white py-[0.6rem] px-[3rem] hover:bg-gray-700 hover:scale-110 hover:text-white'>AI API</button>
       </div>
       </div>
     </div>
