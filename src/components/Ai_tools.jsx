@@ -11,11 +11,12 @@ const Ai_tools = ({data}) => {
     ))
   return (
     <>
+    <div id='aitools'>
     <h1 className='text-center text-3xl font-bold mt-6'>AI TOOLS</h1>
-    <div className='grid grid-cols-5 justify-center mb-4'>
+    <div className='grid grid-cols-5 justify-center mb-6'>
         {listingComponents}
     </div>
-  
+    </div>
     </>
   )
 }

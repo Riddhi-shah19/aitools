@@ -1,6 +1,6 @@
-import React from 'react';
+import {React} from 'react';
 import Hero from './Hero';
-
+import { handleScroll,handleScroll2 } from './Hero';
 
 const Header = () => {
   return (
@@ -11,12 +11,15 @@ const Header = () => {
         </div> 
         
         <ul className='flex'>
-           <li className='cursor-pointer'>AI TOOLS</li>
-            <li className='cursor-pointer'>AI API</li>
+           <li>
+           <button onClick={handleScroll} className='cursor-pointer'>AI TOOLS</button>
+           </li>
+            <li>
+              <button onClick={handleScroll2} className='cursor-pointer'>AI API</button>
+            </li>
         </ul>
     </div>
-    <Hero/>
-
+    <Hero />
     </>
   )
 }
