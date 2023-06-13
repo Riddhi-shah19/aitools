@@ -10,8 +10,14 @@ const Hero = () => {
 
   
   const searchHandler = (data) =>{
-    return  data.filter((item)=>item.title.toLowerCase().includes(search)),
-     data.filter((item)=>item.description.toLowerCase().includes(search));
+    if (search == 'title')
+    {
+      return data.filter((item)=>item.title.toLowerCase().includes(search));
+    }
+    else (search == 'description')
+    {
+      return data.filter((item)=>item.description.toLowerCase().includes(search));
+    }
    }
   
   return (
