@@ -4,7 +4,7 @@ export const apis=[
         "image":"/assets/images/gpt4.png",
         "title":"GPT4",
         "link":"https://chat.openai.com",
-        "description":"AN ASK-IT-ALL AI CHATBOT"
+        "description":"AI Chatbot"
     },
     {
         "id":2,
@@ -32,7 +32,7 @@ export const apis=[
         "image":"/assets/images/bigml.png",
         "title":"BIGML",
         "link":"https://lumen5.com/blog-to-video",
-        "description":"AI VIDEO GENERATOR"
+        "description":"Get data-driven decisions"
     },
     {
         "id":6,
@@ -53,7 +53,7 @@ export const apis=[
         "image":"/assets/images/allganize.png",
         "title":"ALLGANIZE",
         "link":"https://www.riffusion.com",
-        "description":"AI BEAT GENERATOR"
+        "description":"Automated extraction of key words from any documen"
     },
     {
         "id":9,
@@ -67,14 +67,14 @@ export const apis=[
         "image":"/assets/images/amazon.png",
         "title":"AMAZON POLLY",
         "link":"https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F",
-        "description":"AI TOOL TO CREATE FASCINATING ART"
+        "description":"Turns text into speech"
     },
     {
         "id":11,
         "image":"/assets/images/cloudlabs.png",
         "title":"CLOUDLABS",
         "link":"https://forms.app/en/ai-form-generator",
-        "description":"AI TOOL TO CREATE FORMS,SURVEYS AND QUIZZES"
+        "description":"Convert text to audio"
     },
     {
         "id":12,
@@ -92,16 +92,16 @@ export const apis=[
     },
     {
         "id":14,
-        "image":"/assets/images/fontjoy.png",
-        "title":"FONTJOY",
+        "image":"/assets/images/text-remover.png",
+        "title":"TEXT REMOVER",
         "link":"https://fontjoy.com",
-        "description":"AI TOOL TO CREATE FONT COMBINATIONS"
+        "description":"Remove unwanted text from image/document"
     },
     {
         "id":15,
-        "image":"/assets/images/fireflies.png",
-        "title":"FIREFLIES",
+        "image":"/assets/images/street-narrator.png",
+        "title":"STREET NARRATOR",
         "link":"https://fireflies.ai",
-        "description":"AI TOOL TO GENERATE NOTES FROM YOUR MEETINGS "
+        "description":"AI text for any street "
     },
 ]
