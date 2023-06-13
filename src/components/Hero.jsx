@@ -8,13 +8,12 @@ import AI_API from './AI_API';
 const Hero = () => {
   const [search,setSearch]=useState('')
 
-  // console.log(listings.filter(text=>text.description.toLowerCase().includes("CHAT")))
-  const searchHandler = (data) =>{
-    return data.filter((item)=>item.description.toLowerCase().includes(search)),
-    data.filter((item)=>item.title.toLowerCase().includes(search));
-  }
   
-
+  const searchHandler = (data) =>{
+    return  data.filter((item)=>item.title.toLowerCase().includes(search)),
+     data.filter((item)=>item.description.toLowerCase().includes(search));
+   }
+  
   return (
     <>
     <div className='w-full h-screen relative bg-gradient-to-tr from-black to-gray-700'>
