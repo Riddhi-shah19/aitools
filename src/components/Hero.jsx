@@ -32,8 +32,8 @@ const Hero = () => {
   
   return (
     <>
-    <div className='w-full h-screen relative bg-gradient-to-tr from-black to-gray-700'>
-      <img className='w-full h-full mix-blend-overlay' src="/assets/images/ai1.jpg" alt="background" />
+    <div className='w-full h-screen relative bg-cover bg-gradient-to-tr from-black to-gray-700'>
+      <img className='w-full h-full mix-blend-overlay bg-cover' src="/assets/images/ai1.jpg" alt="background" />
       <div className='absolute top-0 w-full h-full flex flex-col justify-center text-center'>
         <h1 className='text-white text-4xl'>ALL AI TOOLS</h1>
             <form
