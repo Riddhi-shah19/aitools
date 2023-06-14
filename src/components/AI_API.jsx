@@ -20,7 +20,10 @@ const AI_API = ({ data }) => {
     </div>
   ));
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 85617a0ea72dbe31c91103a160f8c49d87dfea0b
   return (
     <>
     <div id="apitools">
@@ -33,7 +36,10 @@ const AI_API = ({ data }) => {
         </div>
       </div>
       </div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 85617a0ea72dbe31c91103a160f8c49d87dfea0b
     </>
   );
 };

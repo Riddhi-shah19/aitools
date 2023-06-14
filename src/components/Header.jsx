@@ -2,6 +2,10 @@ import {React} from 'react';
 import Hero from './Hero';
 
 import { handleScroll,handleScroll2 } from './Hero';
+<<<<<<< HEAD
+
+const Header = () => {
+=======
 
 
 
@@ -12,6 +16,7 @@ const Header = () => {
  
   
 
+>>>>>>> 9488423937599518f1e89eddf317cca1ef4a4790
   return (
     <>
     <div className='fixed top-0 flex justify-between w-[100%]  items-center h-20 px-4 z-10 text-white bg-slate-900'>
@@ -30,11 +35,14 @@ const Header = () => {
         </ul>
     </div>
     <Hero />
+<<<<<<< HEAD
+=======
 
         
    
     
 
+>>>>>>> 9488423937599518f1e89eddf317cca1ef4a4790
     </>
   )
 }
