@@ -104,4 +104,58 @@ export const listings=[
         "link":"https://fireflies.ai",
         "description":"To generate notes from meetings"
     },
+    {
+        "id":16,
+        "image":"/assets/images/fireflies.png",
+        "title":"GETMunch",
+        "link":"https://www.getmunch.com",
+        "description":"Content Repourposing done smart",
+        "type":"freemium",
+        "catagory":"video generation"
+    },
+    {
+        "id":17,
+        "image":"/assets/images/fireflies.png",
+        "title":"WEBMAGIC",
+        "link":"https://www.magicapps.ai/webmagic-ai",
+        "description":"Article summarizer",
+        "type":"freemium",
+        "catagory":"productivity"
+    },
+    {
+        "id":18,
+        "image":"/assets/images/fireflies.png",
+        "title":"ADCREATIVE",
+        "link":"https://www.adcreative.ai/",
+        "description":"Generate ad creatives and social media post",
+        "type":"paid",
+        "category":"sales"
+    },
+    {
+        "id":19,
+        "image":"/assets/images/fireflies.png",
+        "title":"POSTWISE",
+        "link":"https://postwise.ai",
+        "description":"Write AI Tweets",
+        "type":"paid",
+        "category":"social-media-assistant"
+    },
+    {
+        "id":20,
+        "image":"/assets/images/fireflies.png",
+        "title":"B12",
+        "link":"https://www.b12.io",
+        "description":"Website Builder",
+        "type":"paid",
+        "category":"e-commerce"
+    },
+    {
+        "id":21,
+        "image":"/assets/images/fireflies.png",
+        "title":"LEARNATIVE",
+        "link":"https://www.learnitive.com/",
+        "description":"Acadamic Writer",
+        "type":"freemium",
+        "category":"education"
+    },
 ]

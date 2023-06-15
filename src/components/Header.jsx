@@ -1,7 +1,5 @@
 import {React} from 'react';
-import Hero from './Hero';
-
-import { handleScroll,handleScroll2 } from './Hero';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -14,14 +12,13 @@ const Header = () => {
         <ul className='flex'>
 
            <li className='px-4'>
-           <button onClick={handleScroll} className='cursor-pointer'>AI TOOLS</button>
+           <Link to='/ToolsPage'>  <button className='cursor-pointer'>AI TOOLS</button></Link>
            </li>
             <li className='px-4'>
-              <button onClick={handleScroll2} className='cursor-pointer'>AI API</button>
+           <button className='cursor-pointer'>AI API</button>
             </li>
         </ul>
     </div>
-    <Hero />
     </>
   )
 }
