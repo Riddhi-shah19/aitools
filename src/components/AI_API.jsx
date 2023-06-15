@@ -34,6 +34,10 @@ const AI_API = ({ data }) => {
           </div>
         </div>
       </div>
+<<<<<<< HEAD
+=======
+      </div>
+>>>>>>> 2f8f936c91a5b7cfaf2f3024c58da9dc23debfac
     </>
   );
 };
