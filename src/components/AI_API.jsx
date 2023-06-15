@@ -20,26 +20,20 @@ const AI_API = ({ data }) => {
     </div>
   ));
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 85617a0ea72dbe31c91103a160f8c49d87dfea0b
   return (
     <>
-    <div id="apitools">
-      <div className="bg-gray-600 p-4">
-        <div>
-          <h1 className="text-center text-4xl font-bold text-white">AI API</h1>
-        </div>
-        <div className="grid grid-cols-none sm:grid-cols-3  lg:grid-cols-5  gap-y-[40px] gap-x-1 mt-[35px] ">
-          {apiComponents}
+      <div id="apitools">
+        <div className="bg-gray-600 p-4">
+          <div>
+            <h1 className="text-center text-4xl font-bold text-white">
+              AI API
+            </h1>
+          </div>
+          <div className="grid grid-cols-none sm:grid-cols-3  lg:grid-cols-5  gap-y-[40px] gap-x-1 mt-[35px] ">
+            {apiComponents}
+          </div>
         </div>
       </div>
-      </div>
-<<<<<<< HEAD
-
-=======
->>>>>>> 85617a0ea72dbe31c91103a160f8c49d87dfea0b
     </>
   );
 };
