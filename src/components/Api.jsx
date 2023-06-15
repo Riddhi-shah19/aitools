@@ -104,4 +104,20 @@ export const apis = [
     link: "https://fireflies.ai",
     description: "AI text for any street ",
   },
+  {
+    id: 16,
+    image: "/assets/images/tts.png",
+    title: "TEXT TO SPEECH",
+    link: "https://fireflies.ai",
+    description: "Get audio from text easily ",
+    typr: "freemium",
+    category: "AI based"
+  },
+  {
+    id: 17,
+    image: "/assets/images/street-narrator.png",
+    title: "STREET NARRATOR",
+    link: "https://fireflies.ai",
+    description: "AI text for any street ",
+  },
 ];

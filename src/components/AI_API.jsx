@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const AI_API = ({ data }) => {
-  const apiComponents = data.map((apis) => (
+  const apiComponents = data.slice(0, 14).map((apis) => (
     <div className="flex " key={apis.id}>
       <img
         className="h-2/3 w-2/4 hover:scale-105 cursor-pointer drop-shadow-2xl"
@@ -31,13 +32,11 @@ const AI_API = ({ data }) => {
           </div>
           <div className="grid grid-cols-none sm:grid-cols-3  lg:grid-cols-5  gap-y-[40px] gap-x-1 mt-[35px] ">
             {apiComponents}
+            <Link to='/ApiList' className="m-auto text-white"> <button>See More </button></Link>
           </div>
         </div>
       </div>
-<<<<<<< HEAD
-=======
-      </div>
->>>>>>> 2f8f936c91a5b7cfaf2f3024c58da9dc23debfac
+
     </>
   );
 };

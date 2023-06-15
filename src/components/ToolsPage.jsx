@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import Header from "./Header";
 import { listings } from "./Icons";
+import Sidebar1 from "./Sidebar1";
+import { AiOutlineSearch } from "react-icons/ai";
 
 const ToolsPage = () => {
   const [search, setSearch] = useState("");
   const keys = ["title", "description"];
   // console.log(listings.filter(listing=>listing.description.toLowerCase().includes("ge")))
-  
+
   const searchHandler = () => {
     return listings.filter((item) =>
       keys.some((keys) => item[keys].toLowerCase().includes(search))
@@ -38,22 +40,33 @@ const ToolsPage = () => {
 
   return (
     <>
-      <div className="left-1/2 mt-24 flex w-full flex-col absolute -translate-x-1/2">
-        <h1 className="text-center text-3xl font-bold mt-6 mb-8">AI TOOLS</h1>
-
-        <input
-          className="outline-none border-black border-2 rounded p-1 w-1/2 m-auto"
-          type="text"
-          placeholder="search here"
-          onChange={(e) => setSearch(e.target.value)}
-        />
-
+      <h1 className="text-center text-3xl font-bold mt-[7rem] ">
+        Find best AI TOOLS
+      </h1>
+      <form className="w-1/2 mt-[1rem] flex justify-between border-black  items-center mx-auto  border p-1 rounded-md text-black bg-transparent ">
         <div>
-          <div className="grid grid-cols-none sm:grid-cols-3 mt-11 lg:grid-cols-5 justify-center mb-6 gap-y-7">
-            {listingComponents}
-          </div>
+          <input
+            className=" focus:outline-none  w-[300px]   text-black"
+            id="searchInput"
+            type="text"
+            placeholder="search Anything"
+            onChange={(e) => setSearch(e.target.value)}
+          />
+        </div>
+        <div>
+          <button className="items-center text-black py-[0.2rem]">
+            <AiOutlineSearch size={20} className="icon" />
+          </button>
+        </div>
+      </form>
+
+      <Sidebar1 />
+      <div className="flex flex-col  w-full">
+        <div className="pl-[14rem] px-4 grid grid-cols-4  mt-11  justify-center mb-6 gap-y-7">
+          {listingComponents}
         </div>
       </div>
+
       <Header />
     </>
   );

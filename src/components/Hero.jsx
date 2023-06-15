@@ -29,14 +29,11 @@ const Hero = () => {
 
   return (
     <>
-<<<<<<< HEAD
+
     <Header/>
     <div className='w-full h-screen relative bg-gradient-to-tr  from-black to-gray-700'>
       <img className='w-full h-full mix-blend-overlay' src="/assets/images/back1.gif" alt="background" />
-=======
-    <div className='w-full h-screen relative bg-cover bg-gradient-to-tr from-black to-gray-700'>
-      <img className='w-full h-full mix-blend-overlay bg-cover' src="/assets/images/ai1.jpg" alt="background" />
->>>>>>> 2f8f936c91a5b7cfaf2f3024c58da9dc23debfac
+
       <div className='absolute top-0 w-full h-full flex flex-col justify-center text-center'>
         <h1 className='text-white text-4xl'>ALL AI TOOLS</h1>
             <form
