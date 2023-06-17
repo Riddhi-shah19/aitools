@@ -7,7 +7,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 const ToolsPage = () => {
   const [search, setSearch] = useState("");
   const keys = ["title", "description"];
-  // console.log(listings.filter(listing=>listing.description.toLowerCase().includes("ge")))
+ 
 
   const searchHandler = () => {
     return listings.filter((item) =>
@@ -15,8 +15,7 @@ const ToolsPage = () => {
     );
   };
 
-  // const listingComponents =searchHandler()
-  //---------- or-----------
+ 
   const listingComponents = listings
     .filter((item) =>
       keys.some((keys) => item[keys].toLowerCase().includes(search))
@@ -62,7 +61,7 @@ const ToolsPage = () => {
 
       <Sidebar1 />
       <div className="flex flex-col  w-full">
-        <div className="pl-[14rem] px-4 grid grid-cols-4  mt-11  justify-center mb-6 gap-y-7">
+        <div className="pl-[14rem] px-4  grid grid-cols-none sm:grid-cols-2   lg:grid-cols-4  mt-11  justify-center mb-6 gap-y-7">
           {listingComponents}
         </div>
       </div>

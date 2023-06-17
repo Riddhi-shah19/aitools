@@ -64,7 +64,7 @@ function ApiList() {
       <Sidebar />
 
       <div className="flex flex-col  w-full ">
-        <div className="pl-[14rem] px-4 grid grid-cols-4  mt-11  justify-center mb-6 gap-y-7">
+        <div className="pl-[14rem] px-4 grid grid-cols-none sm:grid-cols-2   lg:grid-cols-4   mt-11  justify-center mb-6 gap-y-7">
           {apiComponents}
         </div>
       </div>
