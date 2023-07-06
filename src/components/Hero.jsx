@@ -29,7 +29,6 @@ const Hero = () => {
 
   return (
     <>
-
     <Header/>
     <div className='w-full h-screen relative bg-gradient-to-tr  from-black to-gray-700'>
       <img className='w-full h-full mix-blend-overlay' src="/assets/images/back1.gif" alt="background" />

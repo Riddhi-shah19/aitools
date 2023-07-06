@@ -5,6 +5,7 @@ export const listings = [
     title: "CHATGPT",
     link: "https://chat.openai.com",
     description: "An ask-it-all AI chatbot",
+    category: "All In One",
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ export const listings = [
     title: "DALL-E",
     link: "https://labs.openai.com",
     description: "Image Generator",
+    category: "Image Generation",
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ export const listings = [
     title: "GFPGAN",
     link: "https://huggingface.co/spaces/Xintao/GFPGAN",
     description: "Image restoration tool",
+    category: "Photo Editing",
   },
   {
     id: 4,
@@ -26,6 +29,7 @@ export const listings = [
     title: "BRANDMARK",
     link: "https://brandmark.io",
     description: "Generate brandnames",
+    category: "Name Generator",
   },
   {
     id: 5,
@@ -33,6 +37,7 @@ export const listings = [
     title: "LUMEN5",
     link: "https://lumen5.com/blog-to-video",
     description: "Video generator",
+    category: "Video Generation",
   },
   {
     id: 6,
@@ -40,6 +45,7 @@ export const listings = [
     title: "TALK-TO-BOOKS",
     link: "https://books.google.com/talktobooks",
     description: "Interact with books",
+    category: "Productivity",
   },
   {
     id: 7,
@@ -47,6 +53,7 @@ export const listings = [
     title: "DEEPBEAT",
     link: "https://deepbeat.org",
     description: "Rap lyrics generator",
+    category: "Audio Generation",
   },
   {
     id: 8,
@@ -54,6 +61,7 @@ export const listings = [
     title: "RIFFUSION",
     link: "https://www.riffusion.com",
     description: "Beat generator",
+    category: "Audio Generation",
   },
   {
     id: 9,
@@ -61,6 +69,7 @@ export const listings = [
     title: "MAGIC-ERASER",
     link: "https://magicstudio.com/magiceraser",
     description: "Object remover",
+    category:  "Productivity",
   },
   {
     id: 10,
@@ -68,6 +77,7 @@ export const listings = [
     title: "MIDJOURNEY",
     link: "https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F",
     description: "To create fascinating art",
+    category:  "Design",
   },
   {
     id: 11,
@@ -75,6 +85,7 @@ export const listings = [
     title: "FORMS-APP",
     link: "https://forms.app/en/ai-form-generator",
     description: "To create forms,surveys and quizzes",
+    category:  "Education",
   },
   {
     id: 12,
@@ -82,6 +93,7 @@ export const listings = [
     title: "NOTION",
     link: "https://www.notion.so",
     description: "create to-do lists, add notes",
+    category:  "Productivity",
   },
   {
     id: 13,
@@ -89,6 +101,7 @@ export const listings = [
     title: "FLICKR",
     link: "https://www.flickr.com",
     description: "Finding caption for social media",
+    category:  "Social media Assistant",
   },
   {
     id: 14,
@@ -96,6 +109,7 @@ export const listings = [
     title: "FONTJOY",
     link: "https://fontjoy.com",
     description: "To create font combination",
+    category: "Writing Assistant",
   },
   {
     id: 15,
@@ -103,6 +117,7 @@ export const listings = [
     title: "FIREFLIES",
     link: "https://fireflies.ai",
     description: "To generate notes from meetings",
+    category: "Voice assistant"
   },
   {
     id: 16,
@@ -111,7 +126,7 @@ export const listings = [
     link: "https://www.getmunch.com",
     description: "Content Repourposing done smart",
     type: "freemium",
-    catagory: "Video Generation",
+    category: "Video Generation",
   },
   {
     id: 17,
@@ -120,7 +135,7 @@ export const listings = [
     link: "https://www.magicapps.ai/webmagic-ai",
     description: "AI stop shop to find the music from your video",
     type: "free",
-    catagory: "Video Generation",
+    category: "Video Generation",
   },
   {
     id: 18,

@@ -1,5 +1,4 @@
 import React from "react";
-
 import { Link } from "react-router-dom";
 
 const Ai_tools = ({ data }) => {
@@ -11,7 +10,6 @@ const Ai_tools = ({ data }) => {
       />
       <a
         className="hover:scale-105 hover:underline cursor-pointer text-center mt-2 text-xl"
-
         href={listing.link}
         target="_blank"
       >
