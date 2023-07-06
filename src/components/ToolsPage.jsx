@@ -1,20 +1,18 @@
 import React, { useState } from "react";
 import Header from "./Header";
 import { listings } from "./Icons";
-import Sidebar1 from "./Sidebar1";
+import Sidebar1, { data } from "./Sidebar1";
 import { AiOutlineSearch } from "react-icons/ai";
 
 const ToolsPage = () => {
   const [search, setSearch] = useState("");
   const keys = ["title", "description"];
- 
 
   const searchHandler = () => {
     return listings.filter((item) =>
       keys.some((keys) => item[keys].toLowerCase().includes(search))
     );
   };
-
  
   const listingComponents = listings
     .filter((item) =>
@@ -45,7 +43,7 @@ const ToolsPage = () => {
       <form className="w-1/2 mt-[1rem] flex justify-between border-black  items-center mx-auto  border p-1 rounded-md text-black bg-transparent ">
         <div>
           <input
-            className=" focus:outline-none  w-[300px]   text-black"
+            className=" focus:outline-none  w-[300px]  text-black"
             id="searchInput"
             type="text"
             placeholder="search Anything"
@@ -58,15 +56,14 @@ const ToolsPage = () => {
           </button>
         </div>
       </form>
-
       <Sidebar1 />
-      <div className="flex flex-col  w-full">
-        <div className="pl-[14rem] px-4  grid grid-cols-none sm:grid-cols-2   lg:grid-cols-4  mt-11  justify-center mb-6 gap-y-7">
+      <div className="flex flex-col w-full">
+        <div className="pl-[14rem] px-4 grid grid-cols-none sm:grid-cols-2 lg:grid-cols-4 mt-11 justify-center mb-6 gap-y-7">
           {listingComponents}
         </div>
       </div>
-
       <Header />
+      
     </>
   );
 };
