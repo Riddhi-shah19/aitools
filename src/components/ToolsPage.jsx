@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Header from "./Header";
 import { listings } from "./Icons";
-import Sidebar1, { data } from "./Sidebar1";
+import Sidebar1 from "./Sidebar1";
 import { AiOutlineSearch } from "react-icons/ai";
 
 const ToolsPage = () => {

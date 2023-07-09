@@ -3,8 +3,9 @@ import { ToolData } from "./ToolData";
 import { Scrollbars } from "react-custom-scrollbars";
 import { listings } from "./Icons";
 
+
 const Sidebar1 = () => {
-  // const [data, setData] = useState(listings);
+   const [data, setData] = useState(listings);
 
   const filterResult = (item) => {
     const result = listings.filter((curData) => {
