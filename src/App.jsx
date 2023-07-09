@@ -6,8 +6,7 @@ import Hero from "./components/Hero";
 import Ai_tools from "./components/Ai_tools";
 import AI_API from "./components/AI_API";
 import ApiList from "./components/ApiList";
-import ToolsPage from './components/ToolsPage';
-import Sidebar1 from "./components/Sidebar1";
+import Sidebar_tools from "./components/Sidebar_Tools";
 
 
 function App() {
@@ -19,8 +18,7 @@ function App() {
         <Route path="ai_tools" element={<Ai_tools />} />
         <Route path="ai_api" element={<AI_API />} />
         <Route path="apilist" element={<ApiList />} />
-        <Route path='toolspage' element={<ToolsPage/>} />
-        <Route path='slide' element={<Sidebar1/>}/>
+        <Route path='sidebar_tools' element={<Sidebar_tools/>}/>
       </Routes>
     </BrowserRouter>
 

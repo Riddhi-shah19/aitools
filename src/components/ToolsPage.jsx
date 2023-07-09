@@ -1,7 +1,7 @@
+// ANOTHER WAY OF MAPPING IN A VARIABLE AND CALLING IT
 import React, { useState } from "react";
 import Header from "./Header";
 import { listings } from "./Icons";
-import Sidebar1 from "./Sidebar1";
 import { AiOutlineSearch } from "react-icons/ai";
 
 const ToolsPage = () => {
@@ -56,7 +56,7 @@ const ToolsPage = () => {
           </button>
         </div>
       </form>
-      <Sidebar1 />
+      {/* <Sidebar1 /> */}
       <div className="flex flex-col w-full">
         <div className="pl-[14rem] px-4 grid grid-cols-none sm:grid-cols-2 lg:grid-cols-4 mt-11 justify-center mb-6 gap-y-7">
           {listingComponents}
