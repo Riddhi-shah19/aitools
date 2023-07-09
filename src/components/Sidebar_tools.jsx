@@ -3,6 +3,7 @@ import { ToolData } from "./ToolData";
 import { Scrollbars } from "react-custom-scrollbars";
 import { listings } from "./Icons";
 import { AiOutlineSearch } from "react-icons/ai";
+import Header from "./Header";
 
 const Sidebar_tools = () => {
     // here content of listings will be in data
@@ -67,6 +68,7 @@ const Sidebar_tools = () => {
         </nav>
       </div>
 
+{/* searchbar functionality */}
       <div className="pl-[14rem] px-4 grid grid-cols-none sm:grid-cols-2 lg:grid-cols-4 mt-11 justify-center mb-6 gap-y-7">
         {/* this data is of use state */}
         {/* listngs.searchHandler.map... */}
@@ -93,6 +95,7 @@ const Sidebar_tools = () => {
             );
           })}
       </div>
+      <Header/>
     </>
   );
 };
