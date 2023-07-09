@@ -18,7 +18,7 @@ const Header = () => {
             </li>
           </Link>
           <li className="px-4">
-            <Link to="/ToolsPage">
+            <Link to="/Sidebar_tools">
               {" "}
               <button className="cursor-pointer">AI TOOLS</button>
             </Link>
